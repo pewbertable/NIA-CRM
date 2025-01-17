@@ -1,0 +1,105 @@
+﻿@model IEnumerable<CompanyIndustry>
+
+@{
+    ViewData["Title"] = "Company Industry Management";
+}
+
+<h1 class="text-nia-red">Company Industry Management</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-nia-red">Create New Industry Link</a>
+</p>
+
+<table class="table table-striped table-bordered shadow-sm">
+    <thead class="bg-nia-primary text-white">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Company.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Industry)</th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Company.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Industry)</td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary me-1">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary me-1">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* Custom Colors */
+    :root {
+        --nia-primary: #00558c;
+        --nia-secondary: #faa61a;
+        --nia-red: #d6291a;
+        --nia-light: #f4f4f4;
+        --nia-dark: #333333;
+    }
+
+    /* Headings */
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Table */
+    .table {
+        border-collapse: collapse;
+        font-size: 1rem;
+    }
+
+        .table thead {
+            background-color: var(--nia-primary);
+            color: var(--nia-light);
+        }
+
+        .table tbody tr:hover {
+            background-color: var(--nia-light);
+        }
+
+    /* Action Buttons */
+    .btn {
+        transition: all 0.3s ease;
+    }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+    .btn-outline-primary {
+        border-color: var(--nia-primary);
+        color: var(--nia-primary);
+    }
+
+        .btn-outline-primary:hover {
+            background-color: var(--nia-primary);
+            color: white;
+        }
+
+    .btn-outline-secondary {
+        border-color: var(--nia-dark);
+        color: var(--nia-dark);
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: var(--nia-dark);
+            color: white;
+        }
+
+    .btn-outline-danger {
+        border-color: var(--nia-red);
+        color: var(--nia-red);
+    }
+
+        .btn-outline-danger:hover {
+            background-color: var(--nia-red);
+            color: white;
+        }
+</style>

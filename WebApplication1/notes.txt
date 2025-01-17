@@ -1,0 +1,8 @@
+﻿PM> Add-Migration ThirdMigrationForApplicationDbContext -Context ApplicationDbContext
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+PM> Add-Migration ThirdMigrationForApplicationDbContext -Context NewDbContext
+Build started...
+Update-Database -Context ApplicationDbContext 
+Update-Database -Context NewDbContext 

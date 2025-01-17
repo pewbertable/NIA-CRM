@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "Home - Niagara Industrial Association CRM";
+}
+
+<style>
+    /* Custom colors based on NIA website and logo */
+    :root {
+        --nia-primary: #00558c; /* Dark Blue */
+        --nia-secondary: #faa61a; /* Orange */
+        --nia-red: #d6291a; /* Red from the logo */
+        --nia-light: #f4f4f4; /* Light Grey */
+        --nia-dark: #333333; /* Dark Grey */
+        --nia-white: #ffffff; /* White */
+    }
+
+    .bg-nia-primary {
+        background-color: var(--nia-primary) !important;
+    }
+
+    .bg-nia-secondary {
+        background-color: var(--nia-secondary) !important;
+    }
+
+    .bg-nia-red {
+        background-color: var(--nia-red) !important;
+    }
+
+    .text-nia-primary {
+        color: var(--nia-primary) !important;
+    }
+
+    .text-nia-secondary {
+        color: var(--nia-secondary) !important;
+    }
+
+    .text-nia-red {
+        color: var(--nia-red) !important;
+    }
+
+    .border-nia-red {
+        border-color: var(--nia-red) !important;
+    }
+
+    .btn-nia-red {
+        background-color: var(--nia-red);
+        color: var(--nia-white);
+        border: none;
+    }
+
+        .btn-nia-red:hover {
+            background-color: var(--nia-dark);
+            color: var(--nia-white);
+        }
+</style>
+
+<div class="container-fluid bg-nia-light text-nia-primary py-5">
+    <div class="text-center mb-5">
+        <h1 class="text-nia-red">Welcome to the Niagara Industrial Association CRM</h1>
+        <p class="lead">Empowering NIA members to connect, collaborate, and grow.</p>
+    </div>
+</div>
+
+<div class="container my-5 text-center">
+    <div class="row justify-content-center">
+        <!-- About Section -->
+        <div class="col-lg-6 mb-4">
+            <h2 class="text-nia-red">About NIA</h2>
+            <p class="text-nia-primary">
+                The Niagara Industrial Association (NIA) represents the interests of Niagara’s manufacturing and industrial sectors.
+                Our CRM is designed to streamline operations, foster collaboration, and enhance business opportunities for our members.
+            </p>
+            <a class="btn btn-nia-red" href="https://niagaraindustry.com/about" target="_blank">Learn More</a>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-6 mb-4">
+            <h2 class="text-nia-red">Quick Links</h2>
+            <ul class="list-unstyled text-nia-primary">
+                <li><a asp-area="" asp-controller="MembershipCancellation" asp-action="Index" class="text-nia-primary"><i class="bi bi-x-circle-fill"></i> Cancel Membership</a></li>
+                <li><a asp-area="" asp-controller="Company" asp-action="Index" class="text-nia-primary"><i class="bi bi-building"></i> Manage Companies</a></li>
+                <li><a asp-area="" asp-controller="Contact" asp-action="Index" class="text-nia-primary"><i class="bi bi-person-lines-fill"></i> Contact Directory</a></li>
+                <li><a asp-area="" asp-controller="Interaction" asp-action="Index" class="text-nia-primary"><i class="bi bi-bar-chart-fill"></i> Interactions</a></li>
+                <li><a asp-area="" asp-controller="Opportunity" asp-action="Index" class="text-nia-primary"><i class="bi bi-gear-fill"></i> Opportunities</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-nia-primary text-nia-white py-5">
+    <div class="text-center">
+        <h2>Membership Benefits</h2>
+        <p>
+            As an NIA member, you gain access to industry insights, networking events, and opportunities to grow your business.
+        </p>
+        <a class="btn btn-nia-secondary text-nia-dark" href="https://niagaraindustry.com/membership" target="_blank">Explore Membership</a>
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4 text-nia-red">Latest News & Updates</h2>
+    <div class="row">
+        <!-- News Items -->
+        <div class="col-md-4 mb-3">
+            <div class="card border-nia-red shadow-sm">
+                <img src="~/css/Logo1.PNG" class="card-img-top" alt="News 1">
+                <div class="card-body">
+                    <h5 class="card-title text-nia-primary">Upcoming Networking Event</h5>
+                    <p class="card-text">Join us for our next networking event on [Date]. Meet industry leaders and peers.</p>
+                    <a href="https://niagaraindustry.com/events" class="btn btn-nia-red" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card border-nia-red shadow-sm">
+                <img src="~/css/Logo1.PNG" class="card-img-top" alt="News 2">
+                <div class="card-body">
+                    <h5 class="card-title text-nia-primary">New Member Spotlight</h5>
+                    <p class="card-text">We are excited to welcome [Company Name] as our newest member. Learn more about their journey.</p>
+                    <a href="https://niagaraindustry.com/members" class="btn btn-nia-red" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card border-nia-red shadow-sm">
+                <img src="~/css/Logo1.PNG" class="card-img-top" alt="News 3">
+                <div class="card-body">
+                    <h5 class="card-title text-nia-primary">Industry Insights</h5>
+                    <p class="card-text">Stay updated with the latest trends and insights in the manufacturing and industrial sectors.</p>
+                    <a href="https://niagaraindustry.com/insights" class="btn btn-nia-red" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-nia-dark text-nia-white py-3">
+    <div class="text-center">
+        <p>&copy; 2025 Niagara Industrial Association CRM. All Rights Reserved.</p>
+    </div>
+</div>
