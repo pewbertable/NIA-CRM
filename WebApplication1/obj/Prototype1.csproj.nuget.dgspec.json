@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\austeen\\Downloads\\ProjectPrototype-NIA\\ProjectPrototype\\Prototype1\\WebApplication1\\Prototype1.csproj": {}
+    "C:\\Users\\brayd\\source\\repos\\NIA-CRM\\WebApplication1\\Prototype1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\austeen\\Downloads\\ProjectPrototype-NIA\\ProjectPrototype\\Prototype1\\WebApplication1\\Prototype1.csproj": {
+    "C:\\Users\\brayd\\source\\repos\\NIA-CRM\\WebApplication1\\Prototype1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austeen\\Downloads\\ProjectPrototype-NIA\\ProjectPrototype\\Prototype1\\WebApplication1\\Prototype1.csproj",
+        "projectUniqueName": "C:\\Users\\brayd\\source\\repos\\NIA-CRM\\WebApplication1\\Prototype1.csproj",
         "projectName": "Prototype1",
-        "projectPath": "C:\\Users\\austeen\\Downloads\\ProjectPrototype-NIA\\ProjectPrototype\\Prototype1\\WebApplication1\\Prototype1.csproj",
-        "packagesPath": "C:\\Users\\austeen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austeen\\Downloads\\ProjectPrototype-NIA\\ProjectPrototype\\Prototype1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\brayd\\source\\repos\\NIA-CRM\\WebApplication1\\Prototype1.csproj",
+        "packagesPath": "C:\\Users\\brayd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brayd\\source\\repos\\NIA-CRM\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\austeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brayd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

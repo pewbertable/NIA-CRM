@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prototype1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7ddd2a412a37e596209dadd0193d51b7933e453")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prototype1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prototype1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>WebApplication1.Models.NewDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\brayd\Source\Repos\NIA-CRM\.github\workflows\NIA-3.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
